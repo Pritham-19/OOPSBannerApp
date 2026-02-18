@@ -2,8 +2,15 @@ public class OOPSBanner {
 
     public static void main(String[] args) {
 
-        System.out.println("Welcome to OOPSBanner application");
+        // Banner Lines
+        System.out.println(" *****  *****  *****  ***** ");
+        System.out.println(" **  **  **  **  **  **  **  ");
+        System.out.println(" **  **  **  **  **  **  **  ");
+        System.out.println(" **  **  ******  *****  ***** ");
+        System.out.println(" **  **  **  **  **     **  ");
+        System.out.println(" **  **  **  **  **     **  ");
+        System.out.println(" *****   **  **  **     ***** ");
 
-}
-
+        System.out.println("\nWelcome to OOPSBanner application");
+    }
 }
