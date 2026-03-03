@@ -1,7 +1,7 @@
 public class OOPSBanner {
     public static void main(String[] args) {
 
-        // Store banner lines in an array
+// Store banner lines in an array
         String[] banner = {
             " OOOOO   OOOOO   PPPPP   SSSSS ",
             "O     O O     O  P    P  S     ",
