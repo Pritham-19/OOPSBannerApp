@@ -1,18 +1,71 @@
-public class OOPSBanner {
+public class OOPSBannerApp {
+
+    // Pattern for O
+    public static String[] getOPattern() {
+        return new String[]{
+                " *** ",
+                "*   *",
+                "*   *",
+                "*   *",
+                "*   *",
+                "*   *",
+                " *** "
+        };
+    }
+	 // Pattern for O
+    public static String[] getOPattern() {
+        return new String[]{
+                " *** ",
+                "*   *",
+                "*   *",
+                "*   *",
+                "*   *",
+                "*   *",
+                " *** "
+        };
+    }
+
+    // Pattern for P
+    public static String[] getPPattern() {
+        return new String[]{
+                "**** ",
+                "*   *",
+                "*   *",
+                "**** ",
+                "*    ",
+                "*    ",
+                "*    "
+        };
+    }
+
+    // Pattern for S
+    public static String[] getSPattern() {
+        return new String[]{
+                " ****",
+                "*    ",
+                "*    ",
+                " *** ",
+                "    *",
+                "    *",
+                "**** "
+        };
+    }
+
+    // Main method
     public static void main(String[] args) {
 
-// Store banner lines in an array
-        String[] banner = {
-            " OOOOO   OOOOO   PPPPP   SSSSS ",
-            "O     O O     O  P    P  S     ",
-            "O     O O     O  PPPPP    SSSS ",
-            "O     O O     O  P            S",
-            " OOOOO   OOOOO   P       SSSSS "
-        };
+        String[] oPattern = getOPattern();
+        String[] pPattern = getPPattern();
+        String[] sPattern = getSPattern();
 
-        // Loop through array and print each line
-        for (int i = 0; i < banner.length; i++) {
-            System.out.println(banner[i]);
+        // Print OOPS
+        for (int i = 0; i < oPattern.length; i++) {
+            System.out.println(
+                    oPattern[i] + "  " +
+                    oPattern[i] + "  " +
+                    pPattern[i] + "  " +
+                    sPattern[i]
+            );
         }
     }
 }
